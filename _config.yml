@@ -10,7 +10,8 @@ assets:
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
-
+  prefix: "/assets"
+  
 exclude:
   - .bowerrc
   - .travis.yml
