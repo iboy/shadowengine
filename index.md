@@ -9,7 +9,7 @@ kind: grid
 Resources for tutors and students.
 
 <ul class="grid {{ page.kind }}  three"> <!-- the class 'three' adjusts the width to centre the blocks -->
-  <li class="teach" style="background: white url('{{ "/images/tile.png" | absolute_url }}') no-repeat top center;">
+  <li class="teach" style="background: white url('{{ "/assets/tile.png" | absolute_url }}') no-repeat top center;">
     <a href="{{ site.baseurl }}{% link teaching.md %}" class="a"></a>
     <div class="text">
       <a href="{{ site.baseurl }}{% link teaching.md %}">
@@ -21,7 +21,7 @@ Resources for tutors and students.
     </div>
 </li>
 
-<li class="learn" style="background: white url('{{ "/images/tile.png" | absolute_url }}') no-repeat top center;">
+<li class="learn" style="background: white url('{{ "/assets/tile.png" | absolute_url }}') no-repeat top center;">
   <a href="{{ site.baseurl }}{% link learning.md %}" class="a"></a>
   <div class="text">
     <a href="{{ site.baseurl }}{% link learning.md %}">
@@ -33,7 +33,7 @@ Resources for tutors and students.
   </div>
 </li>
 					
-<li class="make" style="background: white url('{{ "/images/tile.png" | absolute_url }}') no-repeat top center;">
+<li class="make" style="background: white url('{{ "/assets/tile.png" | absolute_url }}') no-repeat top center;">
   <a href="{{ site.baseurl }}{% link making.md %}" class="a"></a>
   <div class="text">
     <a href="{{ site.baseurl }}{% link making.md %}">

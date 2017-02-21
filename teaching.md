@@ -5,7 +5,7 @@ kind: teach
 permalink: /resources/teaching/
 ---
 <ul class="grid {{ page.kind }}">
-<li class="teach" style="background: white url('{{ site.baseurl }}/images/tile.png') no-repeat top center;">
+<li class="teach" style="background: white url('{{ site.baseurl }}/assets/tile.png') no-repeat top center;">
     <a href="{{ site.baseurl }}{% link resources/teaching/teaching_example/index.md %}" class="a"></a>
     <div class="text">
         <a href="{{ site.baseurl }}{% link resources/teaching/teaching_example/index.md %}">
@@ -17,7 +17,7 @@ permalink: /resources/teaching/
     </div>
 </li>
 
-<li class="teach" style="background: white url('{{ site.baseurl }}/images/tile.png') no-repeat top center;">
+<li class="teach" style="background: white url('{{ site.baseurl }}/assets/tile.png') no-repeat top center;">
     <a href="{{ site.baseurl }}{% link resources/teaching/teaching_example/index.md %}" class="a"></a>
     <div class="text">
         <a href="{{ site.baseurl }}{% link resources/teaching/teaching_example/index.md %}">

@@ -5,7 +5,7 @@ kind: make
 permalink: /resources/making/
 ---
 <ul class="grid {{ page.kind }}">
-<li class="make" style="background: white url('{{site.baseurl}}/images/tile.png') no-repeat top center;">
+<li class="make" style="background: white url('/assets/tile.png') no-repeat top center;">
     <a href="{{ site.baseurl }}{% link resources/making/making_example/index.md %}" class="a"></a>
     <div class="text">
         <a href="{{ site.baseurl }}{% link resources/making/making_example/index.md %}">
