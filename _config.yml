@@ -37,3 +37,4 @@ url: # Add your site url
 kramdown: 
     parse_block_html: true
 encoding: UTF-8
+baseurl: /shadowengine
