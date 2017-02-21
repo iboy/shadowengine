@@ -1,0 +1,12 @@
+        <header class="header">
+            <a href="{{ "/" | absolute_url }}" class="heading" title="Back Home">{{site.title}}</a>
+        </header>
+        <!--<nav class="nav breadcrumbs"></nav>-->
+        <nav class="nav resource-categories">
+            <ul>
+                <li class="help"><a href="{{ site.baseurl }}{% link help.md %}">Help</a></li>
+                <li class="teach"><a href="{{ site.baseurl }}{% link teaching.md %}">Teach</a></li>
+                <li class="learn"><a href="{{ site.baseurl }}{% link learning.md %}">Learn</a></li>
+                <li class="make"><a href="{{ site.baseurl }}{% link making.md %}">Make</a></li>
+            </ul>
+        </nav>

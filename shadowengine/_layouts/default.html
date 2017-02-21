@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="learning {{page.kind}} {{page.layout}} {{page.kind}}">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong>
+        browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.</p>
+    <![endif]-->
+    <div class="container">
+      {% include header.html %}
+      <div class="main">
+        <article class="content">
+          <h1>{{ page.title}}</h1>
+          {{content}}
+          <nav class="buttons">
+            <a class="button requirements" href="{{ "/requirements.md" | absolute_url }}">What you will need</a>
+            <a class="button worksheet" href="{{ "/worksheet.md" | absolute_url }}">Get started</a>
+          </nav>
+        </article>
+      </div>
+      {% include footer.html %}
+    {% include javascripts.html %}
+    </body>
+</html>

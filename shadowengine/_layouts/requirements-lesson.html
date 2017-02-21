@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="learning {{page.kind}} {{page.layout}} {{page.kind}}">
+    <div class="container">
+      {% include header.html %}
+      <div class="main">
+        <article class="content">
+          <h1>{{ page.title}}</h1>
+          {{content}}
+          {% if page.nextButton == true %}
+          <div style="clear:both;"></div>
+          <nav class="buttons one">
+            <a class="button" href="{{page.next}}">Go to the lessons</a>
+          </nav>
+          {% else %}
+          <div style="clear:both;"></div>
+          <nav class="buttons one">
+            <a class="button" href="../">Back</a>
+          </nav>
+          {% endif %}
+          
+        </article>
+        {% include footer.html %}
+      </body>
+</html>
