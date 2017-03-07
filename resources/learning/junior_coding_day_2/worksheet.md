@@ -21,6 +21,8 @@ credit: Swift Playgrounds Learn to Code 1+2
 **Swift Programming**
 Through games and interactive work we will 
 
+{% vimeo 190084637 %}
+
 **Sharing our work**  
 We'll be sharing the material we make using Seesaw. Log in using the iPad app and the picture below (printed in class) . Then upload your picture and add a reflection (audio, text or video):
 
