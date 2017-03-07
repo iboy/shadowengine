@@ -6,20 +6,22 @@ kind: worksheet
 nextButton: false
 credit: Swift Playgrounds Learn to Code 1+2
 ---
+
+Welcome to our workshop where we will be exploring key concepts in coding using physical games, Swift Playgrounds. We will also record our work as we go along.
+
 ## Ice Breaker (20 minutes) ##
 
 1. Take a selfie and annotate it. Personalise by drawing on it.
 2.  Share it using AirDrop to a class photo album
 3. Discuss the steps - the procedure and interactions - required to do the task: What did we do? How did it work?
 
-## Introduction (10 minutes) ##
+## Introduction to Swift and Swift Playgrounds (10 minutes) ##
 
-**Introduction to Swift and Swift Playground**
+**Introduction to Swift Programming and Swift Playground**
 
 <img src="{{site.baseurl}}/resources/learning/junior_coding_day_2/images/swiftplayground.jpg" width="480" alt="Swift Playgrounds">
 
-**Swift Programming**
-Through games and interactive work we will 
+We will use Swift Playgrounds to explore  
 
 {% vimeo 190084637 %}
 
