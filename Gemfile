@@ -8,4 +8,3 @@ gem "jekyll-sitemap"
 gem "mini_magick"
 gem "sass"
 gem "uglifier"
-gem 'jekyll-admin', group: :jekyll_plugins

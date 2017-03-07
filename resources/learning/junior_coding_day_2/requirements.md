@@ -12,7 +12,7 @@ We will be using a custom Fire Tech Camp Swift Playground book - running on an i
 
 <ul class="hardware-items">
 <li>
-<img src="{{ "/images/components/swift_playgrounds_ipad.png" | absolute_url }}" />
+<img src="{{ "/assets/swift_playgrounds_ipad.png" | absolute_url }}" />
 <div class="detail">8 x iPads with Swift Playgrounds</div>
 </li>
 </ul>
@@ -21,7 +21,7 @@ We will be using a custom Fire Tech Camp Swift Playground book - running on an i
 
 <ul class="hardware-items">
 <li>
-<a href="http://web.seesaw.me"><img src="{{ "/images/components/seesaw-app.png" | absolute_url }}" /></a>
+<a href="http://web.seesaw.me"><img src="{{ "/assets/seesaw-app.png" | absolute_url }}" /></a>
 <div class="detail">Seesaw: Digital Portfolios</div>
 </li>
 </ul>
