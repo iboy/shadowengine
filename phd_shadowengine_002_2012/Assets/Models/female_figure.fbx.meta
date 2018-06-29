@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: d83cd2bb29ff4436ca54ba83513dbabe
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Head
+    100002: LeftHand
+    100004: //RootNode
+    100006: LeftArmUpper
+    100008: RightHand
+    100010: LeftArmLower
+    100012: RightArmUpper
+    100014: UpperBody
+    100016: RightArmLower
+    100018: LeftLegLower
+    100020: LeftLegUpper
+    100022: LeftFoot
+    100024: RightLegLower
+    100026: RightFoot
+    100028: LowerBody
+    100030: RightLegUpper
+    400000: Head
+    400002: LeftHand
+    400004: //RootNode
+    400006: LeftArmUpper
+    400008: RightHand
+    400010: LeftArmLower
+    400012: RightArmUpper
+    400014: UpperBody
+    400016: RightArmLower
+    400018: LeftLegLower
+    400020: LeftLegUpper
+    400022: LeftFoot
+    400024: RightLegLower
+    400026: RightFoot
+    400028: LowerBody
+    400030: RightLegUpper
+    2300000: Head
+    2300002: LeftHand
+    2300004: LeftArmUpper
+    2300006: RightHand
+    2300008: LeftArmLower
+    2300010: RightArmUpper
+    2300012: UpperBody
+    2300014: RightArmLower
+    2300016: LeftLegLower
+    2300018: LeftLegUpper
+    2300020: LeftFoot
+    2300022: RightLegLower
+    2300024: RightFoot
+    2300026: LowerBody
+    2300028: RightLegUpper
+    3300000: Head
+    3300002: LeftHand
+    3300004: LeftArmUpper
+    3300006: RightHand
+    3300008: LeftArmLower
+    3300010: RightArmUpper
+    3300012: UpperBody
+    3300014: RightArmLower
+    3300016: LeftLegLower
+    3300018: LeftLegUpper
+    3300020: LeftFoot
+    3300022: RightLegLower
+    3300024: RightFoot
+    3300026: LowerBody
+    3300028: RightLegUpper
+    4300000: LowerBody
+    4300002: RightLegUpper
+    4300004: RightLegLower
+    4300006: RightFoot
+    4300008: LeftLegUpper
+    4300010: LeftLegLower
+    4300012: LeftFoot
+    4300014: UpperBody
+    4300016: RightArmUpper
+    4300018: RightArmLower
+    4300020: RightHand
+    4300022: LeftArmUpper
+    4300024: LeftArmLower
+    4300026: LeftHand
+    4300028: Head
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 

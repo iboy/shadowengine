@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 25b34cba8a9874beab83edf2cca0d8bd
+timeCreated: 1504094288
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IIM_Bird_Head
+    21300002: IIM_Bird_Head_Blink
+    21300004: IIM_Bird_Body
+    21300006: IIM_Bird_Neck_2
+    21300008: IIM_Bird_Neck_1
+    21300010: IIM_Bird_Neck_3
+    21300012: IIM_Bird_LLeg_Upper
+    21300014: IIM_Bird_RLeg_Upper
+    21300016: IIM_Bird_LLeg_Lower
+    21300018: IIM_Bird_RLeg_Lower
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IIM_Bird_Head
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1588
+        width: 486
+        height: 319
+      alignment: 9
+      pivot: {x: 0.84523165, y: 0.4716219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_Head_Blink
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1588
+        width: 486
+        height: 319
+      alignment: 9
+      pivot: {x: 0.8452317, y: 0.4716219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_Body
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 894
+        width: 869
+        height: 539
+      alignment: 9
+      pivot: {x: 0.3501183, y: 0.58094984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_Neck_2
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1448
+        width: 109
+        height: 174
+      alignment: 9
+      pivot: {x: 0.40981802, y: 0.7824658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_Neck_1
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1369
+        width: 150
+        height: 165
+      alignment: 9
+      pivot: {x: 0.21663107, y: 0.8110729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_Neck_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1002
+        width: 140
+        height: 170
+      alignment: 9
+      pivot: {x: 0.7017133, y: 0.8322337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_LLeg_Upper
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 661
+        width: 80
+        height: 219
+      alignment: 9
+      pivot: {x: 0.47711867, y: 0.8677744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_RLeg_Upper
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 605
+        width: 66
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5554699, y: 0.8813572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_LLeg_Lower
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 174
+        width: 265
+        height: 365
+      alignment: 9
+      pivot: {x: 0.78090936, y: 0.87278986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IIM_Bird_RLeg_Lower
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 157
+        width: 264
+        height: 402
+      alignment: 9
+      pivot: {x: 0.35478812, y: 0.9150419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

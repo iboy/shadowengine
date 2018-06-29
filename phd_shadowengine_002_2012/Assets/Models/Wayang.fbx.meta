@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: d78c09b23fa524743adc27a13749c954
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wayang_Left_hand
+    100004: Wayang_Left_lower_arm
+    100006: Wayang_Left_upper_arm
+    100008: Wayang_Right_hand
+    100010: Wayang_Right_lower_arm
+    100012: Wayang_Right_upper_arm
+    100014: Wayang_Body
+    400000: //RootNode
+    400002: Wayang_Left_hand
+    400004: Wayang_Left_lower_arm
+    400006: Wayang_Left_upper_arm
+    400008: Wayang_Right_hand
+    400010: Wayang_Right_lower_arm
+    400012: Wayang_Right_upper_arm
+    400014: Wayang_Body
+    2300000: Wayang_Body
+    2300002: Wayang_Left_hand
+    2300004: Wayang_Left_lower_arm
+    2300006: Wayang_Left_upper_arm
+    2300008: Wayang_Right_hand
+    2300010: Wayang_Right_lower_arm
+    2300012: Wayang_Right_upper_arm
+    2800000: __AssetImporterPreview
+    3300000: Wayang_Body
+    3300002: Wayang_Left_hand
+    3300004: Wayang_Left_lower_arm
+    3300006: Wayang_Left_upper_arm
+    3300008: Wayang_Right_hand
+    3300010: Wayang_Right_lower_arm
+    3300012: Wayang_Right_upper_arm
+    4300000: Wayang_Body
+    4300002: Wayang_Left_upper_arm
+    4300004: Wayang_Left_lower_arm
+    4300006: Wayang_Left_hand
+    4300008: Wayang_Right_upper_arm
+    4300010: Wayang_Right_lower_arm
+    4300012: Wayang_Right_hand
+    6400000: Wayang_Body
+    6400002: Wayang_Left_hand
+    6400004: Wayang_Left_lower_arm
+    6400006: Wayang_Left_upper_arm
+    6400008: Wayang_Right_hand
+    6400010: Wayang_Right_lower_arm
+    6400012: Wayang_Right_upper_arm
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 

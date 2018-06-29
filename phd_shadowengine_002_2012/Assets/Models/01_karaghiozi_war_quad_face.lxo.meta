@@ -1,0 +1,86 @@
+fileFormatVersion: 2
+guid: 7efad8cbcf3aa4ccf9edded44655e429
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 01_karaghiozi_war__Image___4___Texture_
+    100002: Backdrop_Item
+    100004: 01_karaghiozi_war__Image___Texture_
+    100006: //RootNode
+    100008: 01_karaghiozi_war__Image___2___Texture_
+    100010: War_Kara_Upper_Face
+    100012: Render
+    100014: 01_karaghiozi_war__Image___3___Texture_
+    100016: War_Kara_Lower_Face
+    100018: Texture_Group
+    400000: 01_karaghiozi_war__Image___4___Texture_
+    400002: Backdrop_Item
+    400004: 01_karaghiozi_war__Image___Texture_
+    400006: //RootNode
+    400008: 01_karaghiozi_war__Image___2___Texture_
+    400010: War_Kara_Upper_Face
+    400012: Render
+    400014: 01_karaghiozi_war__Image___3___Texture_
+    400016: War_Kara_Lower_Face
+    400018: Texture_Group
+    2300000: War_Kara_Upper_Face
+    2300002: War_Kara_Lower_Face
+    3300000: War_Kara_Upper_Face
+    3300002: War_Kara_Lower_Face
+    4300000: War_Kara_Upper_Face
+    4300002: War_Kara_Lower_Face
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 

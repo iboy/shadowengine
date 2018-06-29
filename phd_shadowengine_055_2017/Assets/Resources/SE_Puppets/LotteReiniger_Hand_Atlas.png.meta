@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 0ff7865686e88452e982a53665de7897
+timeCreated: 1480448804
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LotteReiniger_Hand_Thumb_Lower
+    21300002: LotteReiniger_Hand_Thumb_Tip
+    21300004: LotteReiniger_Hand_Index_Tip
+    21300006: LotteReiniger_Hand_Thumb_Base
+    21300008: LotteReiniger_Hand_Index_Bottom
+    21300010: LotteReiniger_Hand_Index_Mid
+    21300012: LotteReiniger_Hand_Mid_Tip
+    21300014: LotteReiniger_Hand_Mid_Bottom
+    21300016: LotteReiniger_Hand_Mid_Mid
+    21300018: LotteReiniger_Hand_Ring_Tip
+    21300020: LotteReiniger_Hand_Base
+    21300022: LotteReiniger_Hand_Ring_Mid
+    21300024: LotteReiniger_Hand_Ring_Bottom
+    21300026: LotteReiniger_Hand_Little_Mid
+    21300028: LotteReiniger_Hand_Little_Bottom
+    21300030: LotteReiniger_Hand_Little_Tip
+    21300032: LotteReiniger_Hand_LowerArm
+    21300034: LotteReiniger_Hand_Palm
+    21300036: LotteReiniger_Hand_Atlas_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Thumb_Lower
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1705
+        width: 370
+        height: 288
+      alignment: 9
+      pivot: {x: 0.26893458, y: 0.39764065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Thumb_Tip
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1806
+        width: 318
+        height: 177
+      alignment: 9
+      pivot: {x: 0.2573653, y: 0.25933528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Index_Tip
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1732
+        width: 246
+        height: 236
+      alignment: 9
+      pivot: {x: 0.23924243, y: 0.22429024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Thumb_Base
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1245
+        width: 511
+        height: 418
+      alignment: 9
+      pivot: {x: 0.7689579, y: 0.75573146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Index_Bottom
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1459
+        width: 324
+        height: 194
+      alignment: 9
+      pivot: {x: 0.22726874, y: 0.36685714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Index_Mid
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1591
+        width: 208
+        height: 172
+      alignment: 9
+      pivot: {x: 0.16760665, y: 0.25382107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Mid_Tip
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1613
+        width: 248
+        height: 179
+      alignment: 9
+      pivot: {x: 0.13840756, y: 0.25851083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Mid_Bottom
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1257
+        width: 349
+        height: 230
+      alignment: 9
+      pivot: {x: 0.21916448, y: 0.40217602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Mid_Mid
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1453
+        width: 288
+        height: 144
+      alignment: 9
+      pivot: {x: 0.13549381, y: 0.2088055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Ring_Tip
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1299
+        width: 261
+        height: 187
+      alignment: 9
+      pivot: {x: 0.2384253, y: 0.28614262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Base
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 572
+        width: 1048
+        height: 657
+      alignment: 9
+      pivot: {x: 0.28663236, y: 0.29244316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Ring_Mid
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1188
+        width: 261
+        height: 150
+      alignment: 9
+      pivot: {x: 0.22773083, y: 0.35657063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Ring_Bottom
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 961
+        width: 311
+        height: 171
+      alignment: 9
+      pivot: {x: 0.05579006, y: 0.40092388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Little_Mid
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 857
+        width: 240
+        height: 117
+      alignment: 9
+      pivot: {x: 0.07798614, y: 0.3746755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Little_Bottom
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 760
+        width: 367
+        height: 128
+      alignment: 9
+      pivot: {x: 0.22209646, y: 0.4965024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Little_Tip
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 577
+        width: 282
+        height: 125
+      alignment: 9
+      pivot: {x: 0.25306776, y: 0.2865083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_LowerArm
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 1047
+        height: 549
+      alignment: 9
+      pivot: {x: 0.043504003, y: 0.49614766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LotteReiniger_Hand_Palm
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 149
+        width: 496
+        height: 279
+      alignment: 9
+      pivot: {x: 0.80490065, y: 0.5816869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
