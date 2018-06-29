@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
  Shader "Hidden/DepthOfField31" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "" {}
@@ -48,7 +50,7 @@
 		
 	v2f vert( appdata_img v ) {
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv1.xy = TRANSFORM_TEX(v.texcoord, _CameraDepthTexture);
 		  
 		return o;
@@ -58,7 +60,7 @@
 	v2fDofApply vertDofApply( appdata_img v ) 
 	{
 		v2fDofApply o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv.xy = v.texcoord.xy;
 
 		const half2 blurOffsets[4] = {
@@ -92,7 +94,7 @@
 	v2fDown vertDownsample(appdata_img v) 
 	{
 		v2fDown o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		
 		o.uv0.xy = v.texcoord.xy;
 		o.uv[0].xy = v.texcoord.xy + float2( -1.0, -1.0 ) * _InvRenderTargetSize;
@@ -383,7 +385,7 @@
 	v2fFgBlur vertFgBlur (appdata_img v) {
 		v2fFgBlur o;
 		
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 
 		o.uv.xy = v.texcoord.xy;
 		

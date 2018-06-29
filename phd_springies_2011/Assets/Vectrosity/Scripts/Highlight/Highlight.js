@@ -70,8 +70,8 @@ function Update () {
 		linePoints[i*10 + 8] = Vector2(thisSquare.x - lineWidth*.25, thisSquare.y - squareSize);
 		linePoints[i*10 + 9] = Vector2(35, Mathf.Lerp(65, Screen.height-25, energyLevel));
 		// Change color of selected objects
-		spheres[i].renderer.material.SetColor("_Emission", Color(energyLevel, energyLevel, energyLevel));
-		spheres[i].renderer.material.color.a = energyLevel * .25;
+		spheres[i].GetComponent.<Renderer>().material.SetColor("_Emission", Color(energyLevel, energyLevel, energyLevel));
+		spheres[i].GetComponent.<Renderer>().material.color.a = energyLevel * .25;
 	}
 	
 	// Redo energy line points if screen resolution changes
@@ -119,8 +119,8 @@ function FadeColor () {
 	var thisIndex = selectIndex;	// Since selectIndex is set back to 0 this frame
 	for (t = 0.0; t < 1.0; t += Time.deltaTime) {
 		for (i = 0; i < thisIndex; i++) {
-			spheres[i].renderer.material.SetColor("_Emission", Color.Lerp(startColor, Color.black, t));
-			spheres[i].renderer.material.color.a = Mathf.Lerp(startAlpha, 0.0, t);
+			spheres[i].GetComponent.<Renderer>().material.SetColor("_Emission", Color.Lerp(startColor, Color.black, t));
+			spheres[i].GetComponent.<Renderer>().material.color.a = Mathf.Lerp(startAlpha, 0.0, t);
 		}
 		yield;
 	}
@@ -136,7 +136,7 @@ function OnGUI () {
 	}
 	if (GUI.Button(Rect(20, Screen.height-40, 32, 20), "Go")) {
 		for (i = 0; i < selectIndex; i++) {
-			spheres[i].rigidbody.AddRelativeForce(Vector3.forward * force * energyLevel, ForceMode.VelocityChange);
+			spheres[i].GetComponent.<Rigidbody>().AddRelativeForce(Vector3.forward * force * energyLevel, ForceMode.VelocityChange);
 		}
 		ResetSelection();
 	}

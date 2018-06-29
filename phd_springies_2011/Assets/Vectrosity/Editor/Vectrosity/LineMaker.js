@@ -122,7 +122,7 @@ class LineMaker extends ScriptableWizard {
 			pointObjects[i].transform.position = objectMatrix.MultiplyPoint3x4(meshVertices[i]);
 			pointObjects[i].transform.parent = objectTransform;
 			pointObjects[i].transform.localScale = Vector3(pointScale, pointScale, pointScale);
-			pointObjects[i].renderer.sharedMaterial = pointMaterial;
+			pointObjects[i].GetComponent.<Renderer>().sharedMaterial = pointMaterial;
 		}
 		
 		lines = new Array();
@@ -290,7 +290,7 @@ class LineMaker extends ScriptableWizard {
 		line.transform.localScale = Vector3(lineScale, lineScale, Vector3.Distance(p1, p2));
 		line.transform.LookAt(p1);
 		line.transform.parent = objectTransform;
-		line.renderer.sharedMaterial = lineMaterial;
+		line.GetComponent.<Renderer>().sharedMaterial = lineMaterial;
 		lines.Add(line);
 		linePoints.Add(Vector3Pair(p1, p2));
 		linePositions.Add(line.transform.position);

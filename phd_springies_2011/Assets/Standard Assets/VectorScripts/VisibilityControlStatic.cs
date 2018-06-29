@@ -43,15 +43,15 @@ public class VisibilityControlStatic : MonoBehaviour {
 		}
 		
 		yield return null;
-		if (!renderer.isVisible) {
+		if (!GetComponent<Renderer>().isVisible) {
 			VectorManager.use.isVisible[m_objectNumber.i] = false;
-			VectorManager.use.vectorLines[m_objectNumber.i].vectorObject.renderer.enabled = false;
+			VectorManager.use.vectorLines[m_objectNumber.i].vectorObject.GetComponent<Renderer>().enabled = false;
 		}
 	}
 	
 	void OnBecameVisible () {
 		VectorManager.use.isVisible[m_objectNumber.i] = true;
-		VectorManager.use.vectorLines[m_objectNumber.i].vectorObject.renderer.enabled = true;
+		VectorManager.use.vectorLines[m_objectNumber.i].vectorObject.GetComponent<Renderer>().enabled = true;
 		
 		// Draw line now, otherwise's there's a 1-frame delay before the line is actually drawn in the next LateUpdate
 		if (VectorManager.useDrawLine3D) {
@@ -66,7 +66,7 @@ public class VisibilityControlStatic : MonoBehaviour {
 		if (destroyed) return;
 
 		VectorManager.use.isVisible[m_objectNumber.i] = false;
-		VectorManager.use.vectorLines[m_objectNumber.i].vectorObject.renderer.enabled = false;
+		VectorManager.use.vectorLines[m_objectNumber.i].vectorObject.GetComponent<Renderer>().enabled = false;
 	}
 	
 	void OnDestroy () {

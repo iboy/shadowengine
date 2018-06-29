@@ -17,7 +17,7 @@ function Awake () {
 }
 
 function Start () {
-	renderer.enabled = false;
+	GetComponent.<Renderer>().enabled = false;
 	rigidbodies = FindObjectsOfType(Rigidbody);
 }
 
@@ -27,7 +27,7 @@ function Update () {
 	var worldPos = Camera.main.ScreenToWorldPoint(mousePos);
 	
 	if (Input.GetMouseButtonDown(0) && canClick) {
-		renderer.enabled = true;
+		GetComponent.<Renderer>().enabled = true;
 		transform.position = worldPos;
 		mouseDown = true;
 	}

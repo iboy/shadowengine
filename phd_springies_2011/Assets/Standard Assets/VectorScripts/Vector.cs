@@ -67,7 +67,7 @@ public class Vector : MonoBehaviour {
 	
 	public static void SetCamera (Camera thisCamera, CameraClearFlags clearFlags, bool useOrtho) {
 		if (!cam) {
-			cam = new GameObject("VectorCam", typeof(Camera)).camera;
+			cam = new GameObject("VectorCam", typeof(Camera)).GetComponent<Camera>();
 			DontDestroyOnLoad(cam);
 		}
 		cam.depth = thisCamera.depth+1;

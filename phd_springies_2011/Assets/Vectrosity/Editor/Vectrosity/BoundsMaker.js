@@ -6,7 +6,7 @@ static function ExportNormalmap () {
 		EditorUtility.DisplayDialog("No object selected", "Please select an object.", "Cancel");
 		return;
 	}
-	if (!object.renderer) {
+	if (!object.GetComponent.<Renderer>()) {
 		EditorUtility.DisplayDialog("No renderer present", "Object must have a renderer.", "Cancel");
 		return;
 	}
@@ -21,7 +21,7 @@ static function ExportNormalmap () {
 	object.transform.rotation = Quaternion.identity;
 	object.transform.localScale = Vector3.one;
 
-	var bounds = object.renderer.bounds;
+	var bounds = object.GetComponent.<Renderer>().bounds;
 	var mesh = new Mesh();
 	var vertices = new Vector3[8];
 	vertices[0] = bounds.center + Vector3(-bounds.extents.x,  bounds.extents.y,  bounds.extents.z);
